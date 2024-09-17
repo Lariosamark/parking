@@ -1,0 +1,28 @@
+.navItems {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    }
+    .navItem {
+        display: flex;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        transition: background-color 0.2s;
+        cursor: pointer;
+        }
+        .navItem:hover {
+            background-color: #005f8a;
+            }
+    
+.navIcon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    }
+    .navText {
+        font-size: 16px;
+        }
+        
